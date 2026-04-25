@@ -59,10 +59,11 @@ section h3 {
 
 .activity-card {
   margin-bottom: 15px;
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  background-color: #f9f9f9;
+  padding: 16px;
+  border: 1px solid #dbe5f2;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #ffffff 0%, #f6f9ff 100%);
+  box-shadow: 0 2px 6px rgba(26, 35, 126, 0.08);
 }
 
 .activity-card h4 {
@@ -72,6 +73,72 @@ section h3 {
 
 .activity-card p {
   margin-bottom: 8px;
+}
+
+.participants-section {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px dashed #c7d6ef;
+}
+
+.participants-title {
+  margin-bottom: 8px;
+  color: #1a237e;
+}
+
+.participants-list {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.participant-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 10px;
+  border: 1px solid #d9e5f4;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.participant-name {
+  color: #2b3d54;
+  word-break: break-word;
+}
+
+.remove-participant-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #f1b6be;
+  border-radius: 999px;
+  background-color: #fff1f3;
+  color: #c62828;
+  cursor: pointer;
+  transition: transform 0.15s ease, background-color 0.15s ease, border-color 0.15s ease;
+}
+
+.remove-participant-btn:hover {
+  background-color: #ffe3e6;
+  border-color: #ea9aa6;
+  transform: translateY(-1px);
+}
+
+.remove-participant-btn svg {
+  width: 14px;
+  height: 14px;
+  fill: currentColor;
+}
+
+.empty-participants {
+  margin: 0;
+  color: #60718a;
+  font-style: italic;
 }
 
 .form-group {
