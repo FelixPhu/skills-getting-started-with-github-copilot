@@ -40,40 +40,40 @@ activities = {
         "participants": ["john@mergington.edu", "olivia@mergington.edu"]
     },
     "Soccer Team": {
-        "description": "Team training, strategy, and inter-school soccer matches",
-        "schedule": "Mondays and Wednesdays, 3:30 PM - 5:00 PM",
+        "description": "Team training, drills, and inter-school soccer matches",
+        "schedule": "Mondays and Wednesdays, 4:00 PM - 5:30 PM",
         "max_participants": 22,
         "participants": ["liam@mergington.edu", "noah@mergington.edu"]
     },
     "Swimming Club": {
-        "description": "Improve swimming techniques and prepare for swim meets",
-        "schedule": "Tuesdays and Thursdays, 4:00 PM - 5:30 PM",
+        "description": "Improve swimming techniques and endurance in supervised sessions",
+        "schedule": "Tuesdays and Fridays, 6:30 AM - 7:30 AM",
         "max_participants": 18,
-        "participants": ["ava@mergington.edu", "mia@mergington.edu"]
+        "participants": ["ava@mergington.edu", "isabella@mergington.edu"]
     },
     "Drama Club": {
-        "description": "Practice acting, stage performance, and school productions",
-        "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
-        "max_participants": 16,
-        "participants": ["charlotte@mergington.edu", "amelia@mergington.edu"]
+        "description": "Acting workshops and stage performances throughout the school year",
+        "schedule": "Thursdays, 3:30 PM - 5:00 PM",
+        "max_participants": 25,
+        "participants": ["mia@mergington.edu", "charlotte@mergington.edu"]
     },
     "Art Studio": {
-        "description": "Explore drawing, painting, and mixed media art projects",
-        "schedule": "Fridays, 3:30 PM - 5:00 PM",
-        "max_participants": 15,
-        "participants": ["harper@mergington.edu", "evelyn@mergington.edu"]
+        "description": "Explore drawing, painting, and mixed media creative projects",
+        "schedule": "Wednesdays, 3:30 PM - 5:00 PM",
+        "max_participants": 16,
+        "participants": ["amelia@mergington.edu", "harper@mergington.edu"]
     },
-    "Debate Team": {
-        "description": "Develop public speaking and critical thinking through debates",
-        "schedule": "Thursdays, 3:30 PM - 5:00 PM",
+    "Debate Society": {
+        "description": "Develop public speaking, research, and argumentation skills",
+        "schedule": "Mondays, 3:30 PM - 4:30 PM",
         "max_participants": 14,
-        "participants": ["james@mergington.edu", "benjamin@mergington.edu"]
+        "participants": ["elijah@mergington.edu", "lucas@mergington.edu"]
     },
-    "Science Olympiad": {
-        "description": "Compete in science challenges and hands-on experiments",
-        "schedule": "Tuesdays, 3:30 PM - 5:00 PM",
-        "max_participants": 18,
-        "participants": ["lucas@mergington.edu", "henry@mergington.edu"]
+    "Math Olympiad Club": {
+        "description": "Practice advanced problem-solving for math competitions",
+        "schedule": "Fridays, 2:30 PM - 4:00 PM",
+        "max_participants": 15,
+        "participants": ["evelyn@mergington.edu", "abigail@mergington.edu"]
     }
 }
 
